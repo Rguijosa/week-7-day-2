@@ -117,12 +117,12 @@ def loop():
   # # For Loops Practice #2
   # # Given the following list of numbers, calculate the sum of all the numbers using For loops and store the result of the sum in a variable called sum_numbers:
   
-  list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
-  sum_numbers = 0
+  # list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+  # sum_numbers = 0
 
-  for number in list_numbers:
-     sum_numbers= sum_numbers + number
-    print(f"sum of list_numbers is {sum_numbers}")
+  # for number in list_numbers:
+  #    sum_numbers= sum_numbers + number
+  #   print(f"sum of list_numbers is {sum_numbers}")
   
 
   
@@ -130,12 +130,12 @@ def loop():
   
   
   
-  # For Loops Practice #3
-  # Given the following list of numbers, perform the sum of all even and odd* numbers separately in the variables sum_even and sum_odd respectively:
+  # # For Loops Practice #3
+  # # Given the following list of numbers, perform the sum of all even and odd* numbers separately in the variables sum_even and sum_odd respectively:
   
-  list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+  # list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
 
-  # sum_even= 0
+  # # sum_even= 0
   # sum_odd= 0
 
   # for num in list_numbers:
@@ -158,7 +158,7 @@ def loop():
   
   # num % 2 == 1 (odd values)
   
-  list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
+  # list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
   
   # sum_even = 
   
