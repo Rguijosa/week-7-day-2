@@ -1,8 +1,8 @@
-def zip():
+def zip1():
   # zip
-  # Notice the format enumerate actually returns, let's take a look by transforming it to a list()
-  # list(enumerate('abcde'))
+
   print("zip")
+  
   
   
   # It was a list of tuples, meaning we could use tuple unpacking during our for loop. This data structure is actually very common in Python , especially when working with outside libraries. You can use the zip() function to quickly create a list of tuples by "zipping" up together two lists.
@@ -12,7 +12,8 @@ def zip():
   mylist2 = ['a','b','c','d','e']
   
   # This one is also a generator! We will explain this later, but for now let's transform it to a list
-  zip(mylist1,mylist2)
+  print(list(zip(mylist1,mylist2)))
+  
   
   
   # list(zip(mylist1,mylist2))
@@ -28,6 +29,7 @@ def zip():
   # True
   # 'x' in [1,2,3]
   # False
+  
   
   
   
@@ -52,15 +54,20 @@ def zip():
   
   # Use the zip function, loops, and the following lists of countries and capitals to solve it quickly and efficiently.
   
-  # capitals = ["Berlin", "Tokyo", "Paris", "Helsinki", "Ottawa", "Canberra"]
-  # countries = ["Germany", "Japan", "France", "Finland", "Canada", "Australia"]
+# capitals = ["Berlin", "Tokyo", "Paris", "Helsinki", "Ottawa", "Canberra"]
+# countries = ["Germany", "Japan", "France", "Finland", "Canada", "Australia"]
+
+# for country, capital in zip(capitals, countries):
+#   print(f"the capital of {capital} is {country}")
   
   
   
   # Zip Practice #2
   # Create a zip object made up of lists, of a set of brands and products that you prefer, inside the my_zip variable.
-  # brands =
-  # products =
+  brands = ["apple","nike","addias","jordan"]
+  products =["cream","shampoo","brush","clothes"]
+  for brand, product in zip(brands, products):
+    print(f"I use this brand, {brand} and this product {product}")
   
   
   # Zip Practice #3
